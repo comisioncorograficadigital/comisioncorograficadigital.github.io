@@ -45,11 +45,13 @@ header {
 }
 .nav {
   display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav a {
-  flex: 1 1 0;
-  text-align: center;
+  /* flex: 1 1 0;
+  text-align: center; */
   text-decoration: none;
   text-align: center; 
   font-family: Arial, Helvetica, sans-serif;
@@ -93,5 +95,48 @@ main { padding-bottom: 56px; }
   text-align: justify;
 }
 
+/* =========================
+   Responsive tweaks (add at end)
+   ========================= */
+
+/* break mediano: tablets/desktop chico */
+@media (max-width: 900px) {
+  .container { padding-inline: clamp(0.75rem, 4vw, 1.25rem); }
+
+  /* Nav: un poco más compacto */
+  .nav { gap: .25rem; }
+  .nav a { font-size: 1rem; padding: 10px 6px; }
+
+  /* Hero: menos padding lateral y ancla arriba */
+  .hero { padding: 8% 6%; background-position: center top; }
+
+  /* Secciones: apila verticalmente el contenido */
+  .section { flex-direction: column; }
+}
+
+/* break pequeño: teléfonos */
+@media (max-width: 600px) {
+  /* Nav: que quepa bien; dos por fila si hace falta */
+  .nav { justify-content: space-between; flex-wrap: wrap; }
+  .nav a { flex: 1 0 45%; text-align: center; }
+
+  /* Hero: título más contenido y paddings contenidos */
+  .hero { padding: 12% 1rem; }
+  .hero__title { font-size: clamp(1.4rem, 8vw, 2rem); }
+
+  /* Fondo del body: evita que “aplane” el render en móviles */
+  body {
+    background-size: auto 600px;   /* escala razonable en alto */
+    background-position: top center;
+    background-attachment: scroll; /* mejor perf en móvil */
+  }
+
+  /* Texto de presentación cómodo */
+  .section--presentacion p { max-width: 65ch; }
+
+  /* Footer fijo: deja más colchón al main en pantallas chicas */
+  .site-footer { padding: 14px 12px; }
+  main { padding-bottom: 64px; }   /* sube si tu footer es más alto */
+}
 
 
