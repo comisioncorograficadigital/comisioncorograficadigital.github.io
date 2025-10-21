@@ -9,7 +9,15 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)), url('/assets/imgs/0001.jpg'); 
+    background-size: cover;
+    background-repeat: repeat;
+    background-image:
+    linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.95)),
+    image-set(
+      url('/assets/imgs/0001-1600.avif') type('image/avif'),
+      url('/assets/imgs/0001-1600.webp') type('image/webp'),
+      url('/assets/imgs/0001.jpg') type('image/jpeg')
+    );
 }
 
 .container { max-width: var(--max); margin-inline: auto; padding-inline: clamp(1rem, 3vw, 2rem); }
@@ -29,10 +37,16 @@ body {
     /* height: 46vw; Ajusta la altura según tus necesidades */
     height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     /* background-position: center center; Centra la imagen */
     opacity: 1;
-    background-image: linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.60)), url('/assets/imgs/0002.jpg'); 
+    background-image:
+    linear-gradient(rgba(255,255,255,.60), rgba(255,255,255,.60)),
+    image-set(
+      url('/assets/imgs/0002-1600.avif') type('image/avif'),
+      url('/assets/imgs/0002-1600.webp') type('image/webp'),
+      url('/assets/imgs/0002.jpg')      type('image/jpeg')
+    );
     
 }
 .hero__inner { text-align: left; font-family: Arial, Helvetica, sans-serif;}
@@ -118,11 +132,19 @@ main { padding-bottom: 56px; }
 /* break pequeño: teléfonos */
 @media (max-width: 600px) {
   /* Nav: que quepa bien; dos por fila si hace falta */
+  
+
   .nav { justify-content: space-between; flex-wrap: wrap; }
   .nav a { flex: 1 0 45%; text-align: center; }
 
   /* Hero: título más contenido y paddings contenidos */
-  .hero { padding: 12% 1rem; }
+  .hero { padding: 12% 1rem;     background-image:
+      linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.60)),
+      image-set(
+        url('/assets/imgs/0002-800.avif') type('image/avif'),
+        url('/assets/imgs/0002-800.webp') type('image/webp'),
+        url('/assets/imgs/0002.jpg')      type('image/jpeg')
+      );}
   .hero__title { font-size: clamp(1.4rem, 8vw, 2rem); }
 
   /* Fondo del body: evita que “aplane” el render en móviles */
@@ -130,6 +152,13 @@ main { padding-bottom: 56px; }
     background-size: auto 600px;   /* escala razonable en alto */
     background-position: top center;
     background-attachment: scroll; /* mejor perf en móvil */
+    background-image:
+      linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
+      image-set(
+        url('/assets/imgs/0001-800.avif') type('image/avif'),
+        url('/assets/imgs/0001-800.webp') type('image/webp'),
+        url('/assets/imgs/0001.jpg')      type('image/jpeg')
+      );
   }
 
   /* Texto de presentación cómodo */
