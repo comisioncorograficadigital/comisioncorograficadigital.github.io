@@ -32,12 +32,13 @@ body {
     background-repeat: no-repeat;
     /* background-position: center center; Centra la imagen */
     opacity: 1;
-    background-image: linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)), url('/assets/imgs/0002.jpg'); 
+    background-image: linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.60)), url('/assets/imgs/0002.jpg'); 
     
 }
 .hero__inner { text-align: left; font-family: Arial, Helvetica, sans-serif;}
 .kicker { letter-spacing: .04em; text-transform: uppercase; font-size: .8rem; color: var(--fg-dim); margin: 0 0 var(--space-2); }
 .hero__title { font-size: clamp(1.8rem, 4.5vw, 3rem); line-height: 1.1; margin: 0 0 var(--space-2); color: var(--fg);}
+
 header {
   position: sticky; 
   top: 0;
