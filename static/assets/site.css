@@ -34,8 +34,7 @@ body {
     border-bottom: solid 15px #d6b41b;
     width: auto;
     padding: 10%;
-    /* height: 46vw; Ajusta la altura según tus necesidades */
-    height: 100%;
+    min-height: 25svh;
     background-size: cover;
     background-repeat:no-repeat;
     /* background-position: center center; Centra la imagen */

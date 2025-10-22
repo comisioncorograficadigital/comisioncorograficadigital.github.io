@@ -9,24 +9,26 @@
 	<link rel="stylesheet" href="/assets/site.css" />
 	<title>Comisión Corográfica Digital</title>
 	<meta name="description" content="Sitio general de la CCD: ontología, recursos y exposición." />
-	<link
-	rel="preload"
-	as="image"
-	href="/assets/imgs/0002-800.webp"
-	imagesrcset="/assets/imgs/0002-800.webp 800w, /assets/imgs/0002-1600.webp 1600w"
-	imagesizes="100vw"
-	type="image/webp"
-	fetchpriority="high"
-	/>
+<!-- HERO: desktop y tablets -->
+<link
+  rel="preload"
+  as="image"
+  href="/assets/imgs/0002-1600.avif"
+  type="image/avif"
+  media="(min-width: 601px)"
+  fetchpriority="high"
+/>
 
-	<link
-	rel="preload"
-	as="image"
-	href="/assets/imgs/0001-800.webp"
-	imagesrcset="/assets/imgs/0001-800.webp 800w, /assets/imgs/0001-1600.webp 1600w"
-	imagesizes="100vw"
-	type="image/webp"
-	/>
+<!-- HERO: móviles -->
+<link
+  rel="preload"
+  as="image"
+  href="/assets/imgs/0002-800.avif"
+  type="image/avif"
+  media="(max-width: 600px)"
+  fetchpriority="high"
+/>
+
 
 </svelte:head>
 
