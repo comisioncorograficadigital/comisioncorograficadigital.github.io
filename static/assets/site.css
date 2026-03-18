@@ -1,5 +1,5 @@
 /* layout base que puedes ya tener */
-:root {
+:global(:root) {
   --max: 100%;
   --space-1: .5rem; --space-2: 1rem; --space-3: 1.5rem; --space-4: 2rem; --space-6: 3rem;
   --radius: 16px;
