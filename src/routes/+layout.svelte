@@ -40,7 +40,7 @@
 		<a href="https://razoncartografica.com/2025/05/12/codazzi/" target="_blank">Eventos</a>
 		<a href="https://comisioncorograficadigital.github.io/ccd-ontology/" target="_blank">Ontología CCD</a>
 		<a href="https://my.matterport.com/show/?m=64w4nfGVJVU" target="_blank">Expo Codazzi: Archivo Global</a>
-		<a href="https://p1-hd.tail991e65.ts.net/s/ccd-piloto/" target="_blank">Respositorio CCD</a>
+		<a href="https://p1-hd.tail991e65.ts.net/s/ccd-piloto/" target="_blank">Repositorio CCD</a>
 		<a href="https://comisioncorograficadigital.github.io/ de la noticia de la Unesco? https://www.unesco.org/es/articles/29-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-de?hub=84793" target="_blank">Memoria del mundo UNESCO</a>
 	</nav>
 </header>

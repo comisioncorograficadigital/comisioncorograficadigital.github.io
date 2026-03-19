@@ -11,7 +11,7 @@
     <br>
     <p>Para desarrollar distintos componentes del proyecto se han puesto en marcha los siguientes grupos y ejes de trabajo:</p> 
     <br>  
-    <p>Base de datos y desarrollo web: Juan Felipe Urueña, David Ramírez, y Santiago González (BNC)</p>
+    <p>Base de datos y desarrollo web: Juan Felipe Urueña Calderón, David Ramírez, y Santiago González (BNC)</p>
     <br>
     <p>Coordinación interinstitucional: Sebastián Díaz Angel, Víctor Buitrago (Sogeocol), Laura Sánchez (UN) y Sandra Angulo (BNC)</p>
     <br>
