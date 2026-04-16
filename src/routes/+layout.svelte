@@ -7,8 +7,8 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<link rel="stylesheet" href="/assets/site.css" />
-	<title>Comisión Corográfica Digital</title>
-	<meta name="description" content="Sitio general de la CCD: ontología, recursos y exposición." />
+	<title>Comision Corografica Digital</title>
+	<meta name="description" content="Sitio general de la CCD: ontologia, recursos y exposicion." />
 <!-- HERO: desktop y tablets -->
 <link
   rel="preload"
@@ -19,7 +19,7 @@
   fetchpriority="high"
 />
 
-<!-- HERO: móviles -->
+<!-- HERO: moviles -->
 <link
   rel="preload"
   as="image"
@@ -36,12 +36,10 @@
 <header class="site-header">
 	<nav class="nav">
 		<a href="/">Inicio</a>
-		<a href="https://drive.google.com/file/d/1dEF-PO8h1xNcJzmplvAtHBXaEFW6ADol/view?usp=sharing" target="_blank">Proyecto</a>
-		<a href="https://razoncartografica.com/2025/05/12/codazzi/" target="_blank">Eventos</a>
-		<a href="https://comisioncorograficadigital.github.io/ccd-ontology/" target="_blank">Ontología CCD</a>
-		<a href="https://my.matterport.com/show/?m=64w4nfGVJVU" target="_blank">Expo Codazzi: Archivo Global</a>
-		<a href="https://p1-hd.tail991e65.ts.net/s/ccd-piloto/" target="_blank">Repositorio CCD</a>
-		<a href="https://www.unesco.org/es/articles/29-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-de?hub=84793" target="_blank">Memoria del mundo UNESCO</a>
+		<a href="/proyecto/">Proyecto</a>
+		<a href="/infraestructura/">Infraestructura</a>
+		<a href="/actividades/">Actividades</a>
+		<a href="/instituciones/">Instituciones</a>
 	</nav>
 </header>
 
@@ -50,6 +48,5 @@
 </main>
 
 <footer class="site-footer">
-	<small>© CCD — Licencias y créditos</small>
+	<small>© CCD — Licencias y creditos</small>
 </footer>
-
