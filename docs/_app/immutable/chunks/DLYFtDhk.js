@@ -15,9 +15,9 @@ instituciones,4,Participantes,Presentar participantes y red de trabajo,Presenta 
 ontologia-ccd,Ontología CCD,Recurso conceptual y técnico,En desarrollo / piloto,Modelo semántico del proyecto para estructurar entidades relaciones y vocabularios con estándares interoperables,https://comisioncorograficadigital.github.io/ccd-ontology/,infraestructura,si,si,"Implementada con RDF/OWL, SKOS, PROV-O, DCTERMS e IIIF. Permite representar documentos, agentes, lugares, eventos y sus relaciones de manera enlazada, facilitando consultas cruzadas y la integración con otras infraestructuras de datos de la región y el mundo.","RDF/OWL|SKOS|PROV-O|DCTERMS|IIIF",Acceder a la ontología,iframe,https://comisioncorograficadigital.github.io/ccd-ontology/,Vista previa de la ontología CCD,
 repositorio-piloto-omeka,Repositorio piloto Omeka S,Recurso digital,Piloto,Entorno de consulta y prueba donde se implementa la ontología CCD y se ensaya la organización y visualización de los materiales del proyecto,https://p1-hd.tail991e65.ts.net/s/ccd-piloto/page/mapas,infraestructura,si,si,"Construido sobre Omeka S, plataforma de código abierto especializada en colecciones culturales y patrimoniales. El piloto permite explorar las capacidades de descripción enlazada, visualización de mapas IIIF y navegación por conjuntos documentales heterogéneos.","Omeka S|IIIF|JSON-LD",Acceder al repositorio piloto,iframe,https://p1-hd.tail991e65.ts.net/s/ccd-piloto/page/mapas,Vista previa del repositorio piloto Omeka S,
 `,C=`id_actividad,titulo,tipo,estado,año,descripcion_breve,detalle,enlace,enlace_label,visible_en_home,visible_en_actividades,notas
-codazzi-cartografia-archivo-global,Codazzi: cartografía de un archivo global,Exposición,Realizada,2024,Exposición realizada a partir del corpus digitalizado de la Comisión Corográfica orientada a activar y visibilizar el archivo en clave pública y curatorial,"Disponible en versión virtual mediante un recorrido Matterport de alta resolución. Permite explorar las piezas en detalle, leer textos curatoriales y comprender el proceso de producción cartográfica y artística de la Comisión. Surgió del impulso generado por la digitalización del fondo en la Biblioteca Nacional Universitaria de Turín.",https://my.matterport.com/show/?m=64w4nfGVJVU,Visitar exposición virtual,si,si,
+codazzi-cartografia-archivo-global,Codazzi: cartografía de un archivo global,Exposición,Realizada,2024,Exposición realizada a partir del corpus digitalizado de la Comisión Corográfica orientada a activar y visibilizar el archivo en clave pública y curatorial,"Disponible en versión virtual mediante un recorrido Matterport de alta resolución. Permite explorar las piezas en detalle, leer textos curatoriales y comprender el proceso de producción cartográfica y artística de la Comisión. Surgió del impulso generado por la digitalización del fondo en la Biblioteca Nacional Universitaria de Turín.",https://my.matterport.com/show/m=64w4nfGVJVU,Visitar exposición virtual,si,si,
 codazzi-geografo-dos-naciones,"Codazzi, un geógrafo para dos naciones",Seminario / actividad académica,Realizada,2025,Espacio académico y de circulación pública en torno a la figura de Codazzi y el legado de la Comisión Corográfica,El seminario exploró la trayectoria de Codazzi entre Venezuela y la Nueva Granada y su rol como cartógrafo de Estado. Articulado por Razón Cartográfica — red académica especializada en historia de la cartografía colombiana.,https://razoncartografica.com/2025/05/12/codazzi/,Ver en Razón Cartográfica,si,si,
-registro-memoria-mundo-unesco,Registro Memoria del Mundo UNESCO,Reconocimiento institucional,Registrada,2024,Referencia al reconocimiento regional vinculado al patrimonio documental relacionado con la Comisión Corográfica,El expediente forma parte de una estrategia más amplia de visibilización y protección del legado corográfico. El proyecto CCD acompañará el seguimiento técnico del expediente ante la instancia nacional en 2026 con un evento público de socialización de resultados.,https://www.unesco.org/es/articles/30-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-de?hub=84793,Ver en UNESCO,si,si,
+registro-memoria-mundo-unesco,Registro Memoria del Mundo UNESCO,Reconocimiento institucional,Registrada,2024,Referencia al reconocimiento regional vinculado al patrimonio documental relacionado con la Comisión Corográfica,El expediente forma parte de una estrategia más amplia de visibilización y protección del legado corográfico. El proyecto CCD acompañará el seguimiento técnico del expediente ante la instancia nacional en 2026 con un evento público de socialización de resultados.,https://www.unesco.org/es/articles/30-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-dehub=84793,Ver en UNESCO,si,si,
 `,f=`id_institucion,nombre,sigla,categoria,ciudad,descripcion_breve,nota,visible_en_home,visible_en_instituciones,logo_url,web_url,notas
 archivo-general-de-la-nacion,Archivo General de la Nación,AGN,Custodio activo,Bogotá,,Depositario de la copia digital del fondo de Turín y colecciones propias de la Comisión.,si,si,,,
 banco-de-la-republica,Banco de la República,BANREP,Custodio activo,Bogotá,,"Biblioteca Luis Ángel Arango — fondos bibliográficos, cartográficos y documentales.",si,si,,,
@@ -82,22 +82,22 @@ tipo_participacion,Equipo de trabajo,Tipo de participacion derivado de grupos y 
 03,geoportal,Geoportal,"Sistema de Información Histórico-Geográfico para georreferenciar los mapas, recorridos, topónimos y actividades de la Comisión, así como las cadenas de producción y circulación de los documentos.","Incluirá un diccionario geográfico e histórico derivado del corpus documental y permitirá visualizar los procesos de representación y desplazamiento espacial de los materiales a través del tiempo.",En preparación,no,,
 04,museo,Museo virtual,"Espacio de exploración visual e interactiva que reúne los resultados curatoriales del proyecto. Incluirá guías pedagógicas, narrativas audiovisuales y herramientas de interpretación orientadas a investigadores, docentes, estudiantes y público general.","Permitirá comprender la historia, los recorridos y las consecuencias de la Comisión Corográfica mediante curadurías digitales, visitas guiadas temáticas y visualizaciones interactivas.",En preparación,no,,
 05,alianzas,Relaciones y participación,"Estrategia de vinculación, divulgación y sostenibilidad del proyecto, orientada a fortalecer alianzas con instituciones, atraer nuevos usuarios y fomentar la participación activa de comunidades académicas y educativas.","Incluye la creación del sitio web general, eventos académicos, exposiciones, talleres de formación y procesos de enriquecimiento colaborativo de los metadatos.",Activo,no,,
-`,R=`page,orden,valor,label\r
-proyecto,1,1850â€“1859,PerÃ­odo de la expediciÃ³n original\r
-proyecto,2,10,Instituciones custodias activas\r
-proyecto,3,8,Integrantes del ComitÃ© CientÃ­fico\r
-proyecto,4,24,Meses de duraciÃ³n estimada\r
-infraestructura,1,2,Plataformas activas\r
-infraestructura,2,6,EstÃ¡ndares implementados\r
-infraestructura,3,Omeka S,Plataforma de repositorio\r
-infraestructura,4,IIIF,Protocolo de imÃ¡genes\r
-actividades,1,3,Actividades realizadas\r
-actividades,2,1,ExposiciÃ³n virtual\r
-actividades,3,UNESCO,Memoria del Mundo\r
-participantes,1,10,Instituciones custodias\r
-participantes,2,5,Entidades aliadas\r
-participantes,3,8,ComitÃ© CientÃ­fico\r
-participantes,4,4,PaÃ­ses representados\r
+`,R=`page,orden,valor,label
+proyecto,1,1850–1859,Período de la expedición original
+proyecto,2,10,Instituciones custodias activas
+proyecto,3,8,Integrantes del Comité Científico
+proyecto,4,24,Meses de duración estimada
+infraestructura,1,2,Plataformas activas
+infraestructura,2,6,Estándares implementados
+infraestructura,3,Omeka S,Plataforma de repositorio
+infraestructura,4,IIIF,Protocolo de imágenes
+actividades,1,3,Actividades realizadas
+actividades,2,1,Exposición virtual
+actividades,3,UNESCO,Memoria del Mundo
+participantes,1,10,Instituciones custodias
+participantes,2,5,Entidades aliadas
+participantes,3,8,Comité Científico
+participantes,4,4,Países representados
 `,I=`orden,texto,tono
 1,Ontología CCD v1.0 — Piloto,active
 2,Repositorio Omeka S — Piloto,active

@@ -1,5 +1,5 @@
 <script>
-	import favicon from '$lib/assets/favicon.png';
+	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
 	let menuAbierto = $state(false);

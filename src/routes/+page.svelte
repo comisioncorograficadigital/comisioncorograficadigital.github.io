@@ -104,7 +104,7 @@
 <Hero
 	title="Comisión Corográfica Digital"
 	kicker="Proyecto interinstitucional · Colombia"
-	description={purposeBlock?.texto_principal}
+	description={purposeBlock.texto_principal}
 	cta="Conocer Proyecto"
 	ctaHref="/proyecto/"
 />

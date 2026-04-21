@@ -28,12 +28,12 @@
 
 
 	const tipoBadge = {
-		'Exposici?n': '#3a2a1a',
-		'Seminario / actividad acad?mica': '#1a3a2a',
+		'Exposición': '#3a2a1a',
+		'Seminario / actividad académica': '#1a3a2a',
 		'Reconocimiento institucional': '#1a2a4a',
 		Evento: '#3a1a3a',
-		'Acad?mico': '#2a2a1a',
-		'Publicaci?n': '#2a3a1a'
+		'Académico': '#2a2a1a',
+		'Publicación': '#2a3a1a'
 	};
 </script>
 
@@ -126,7 +126,7 @@
 						<span class="act-num">{act.num}</span>
 						<span class="act-titulo">{act.titulo}</span>
 					</div>
-					<span class="act-icon" aria-hidden="true">{actividadAbierta === i ? '->' : '+'}</span>
+					<span class="act-icon" aria-hidden="true">{actividadAbierta === i ? '→' : '+'}</span>
 				</button>
 
 				{#if actividadAbierta === i}

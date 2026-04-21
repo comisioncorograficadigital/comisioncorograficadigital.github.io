@@ -11,7 +11,7 @@
 		document: 'Documento',
 		platform: 'Plataforma',
 		repository: 'Repositorio',
-		exhibition: 'Exposicion',
+		exhibition: 'Exposición',
 		event: 'Evento',
 		network: 'Red institucional',
 		recognition: 'Reconocimiento'

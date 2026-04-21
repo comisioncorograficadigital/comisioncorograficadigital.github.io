@@ -212,7 +212,7 @@ Debe presentar:
 ### Codazzi: cartografía de un archivo global
 Tipo: Exposición
 Estado: Realizada
-Enlace: https://my.matterport.com/show/?m=64w4nfGVJVU
+Enlace: https://my.matterport.com/show/m=64w4nfGVJVU
 
 Descripción breve:
 Exposición realizada a partir del corpus digitalizado de la Comisión Corográfica, orientada a activar y visibilizar el archivo en clave pública y curatorial.
@@ -228,7 +228,7 @@ Espacio académico y de circulación pública en torno a la figura de Codazzi y 
 ### Registro Memoria del Mundo UNESCO
 Tipo: Reconocimiento institucional
 Estado: Realizada / registrada
-Enlace: https://www.unesco.org/es/articles/30-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-de?hub=84793
+Enlace: https://www.unesco.org/es/articles/30-nuevas-inscripciones-en-el-registro-regional-memoria-del-mundo-de-america-latina-y-el-caribe-dehub=84793
 
 Descripción breve:
 Referencia al reconocimiento regional vinculado al patrimonio documental relacionado con la Comisión Corográfica.

@@ -27,7 +27,7 @@
 			target={external ? '_blank' : undefined}
 			rel={external ? 'noopener noreferrer' : undefined}
 		>
-			{external ? 'Ver recurso externo' : 'Ver mas'}
+			{external ? 'Ver recurso externo' : 'Ver más'}
 		</a>
 	</p>
 </article>
