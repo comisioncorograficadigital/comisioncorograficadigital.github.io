@@ -1,0 +1,5 @@
+seccion,orden,titulo,proposito,intro_breve,debe_explicar_1,debe_explicar_2,debe_explicar_3,debe_explicar_4,debe_explicar_5,estado,notas
+proyecto,1,Proyecto,Explicar el proyecto CCD,Presenta la definición general del proyecto y su marco institucional,qué es la CCD,"su origen, propósito y alcance",sus objetivos,su estado actual,sus documentos base o de referencia,En desarrollo,
+infraestructura,2,Infraestructura,Explicar recursos técnicos y conceptuales,Presenta los desarrollos y recursos del proyecto,qué recursos técnicos y conceptuales se están desarrollando,para qué sirven,en qué estado están,cuáles están disponibles y cuáles siguen en desarrollo,,En desarrollo,
+actividades,3,Actividades,Registrar acciones realizadas o en curso,Presenta la circulación pública y académica del proyecto,exposiciones,seminarios,circulación pública,acciones realizadas o en curso,registros disponibles,En desarrollo,
+instituciones,4,Participantes,Presentar participantes y red de trabajo,Presenta custodios aliados comité y ejes de trabajo,custodios activos,aliados y colaboradoras,comité científico,tipos de participación,grupos y ejes de trabajo,En desarrollo,

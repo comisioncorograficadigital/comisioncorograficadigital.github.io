@@ -3,7 +3,7 @@
 		project: 'Proyecto',
 		infrastructure: 'Infraestructura',
 		activities: 'Actividades',
-		institutions: 'Instituciones'
+		institutions: 'Participantes'
 	};
 
 	let {
